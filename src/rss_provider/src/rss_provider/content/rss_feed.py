@@ -20,10 +20,8 @@ class IRSSFeed(model.Schema):
         required=True,
     )
 
-    description = RichText(
+    description = schema.TextLine(
         title=u"Description",
-        description="Description of the RSS Feed (max. 2000 characters)",
-        max_length=2000,
         required=True,
     )
 

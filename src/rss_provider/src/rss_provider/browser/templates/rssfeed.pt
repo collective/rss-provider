@@ -1,0 +1,12 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+  <body>
+    <h1 tal:content="context/title">Title</h1>
+    <p tal:content="context/description">Description</p>
+    <ul>
+      <li tal:repeat="item context/items" tal:content="item">Item</li>
+    </ul>
+  </body>
+</html>

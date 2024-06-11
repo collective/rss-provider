@@ -11,5 +11,12 @@
       name="rss_provider"
       type="plone"
       />
+      
+  <browser:page
+      for="rss_provider.content.rss_feed.IRSSFeed"
+      name="rssfeed"
+      template="templates/rssfeed.pt"
+      permission="zope2.View"
+      />
 
 </configure>
