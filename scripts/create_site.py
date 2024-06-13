@@ -43,7 +43,7 @@ newSecurityManager(None, admin)
 
 site_id = "Plone"
 payload = {
-    "title": "RSS Provider",
+    "title": "rss-cookieclutter-project",
     "profile_id": _DEFAULT_PROFILE,
     "extension_ids": [
         "rss_provider:default",

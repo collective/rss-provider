@@ -22,8 +22,8 @@ EOT
 FROM plone/server-prod-config:${PLONE_VERSION:-6.0.11}
 
 LABEL maintainer="Plone Foundation <collective@plone.org>" \
-      org.label-schema.name="rss-provider-backend" \
-      org.label-schema.description="RSS Provider backend image." \
+      org.label-schema.name="rss-cookieclutter-project-backend" \
+      org.label-schema.description="rss-cookieclutter-project backend image." \
       org.label-schema.vendor="Plone Foundation"
 
 # Copy /app from builder

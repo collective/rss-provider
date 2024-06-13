@@ -12,4 +12,13 @@
       type="plone"
       />
 
+<browser:page
+      name="rss_feed_view"
+      for="plone.app.contenttypes.interfaces.IFolder"
+      class=".rssfeed.rssfeedView"
+      template="pt/rss_feed_view.pt"
+      permission="zope2.View"
+      layer="plone.app.contenttypes.interfaces.IPloneAppContenttypesLayer"
+      />
+
 </configure>

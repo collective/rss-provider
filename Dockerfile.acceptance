@@ -23,8 +23,8 @@ EOT
 FROM plone/server-acceptance:${PLONE_VERSION:-6.0.11}
 
 LABEL maintainer="Plone Foundation <collective@plone.org>" \
-      org.label-schema.name="rss-provider-acceptance" \
-      org.label-schema.description="RSS Provider backend acceptance image." \
+      org.label-schema.name="rss-cookieclutter-project-acceptance" \
+      org.label-schema.description="rss-cookieclutter-project backend acceptance image." \
       org.label-schema.vendor="Plone Foundation"
 
 ENV CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,rss_provider"
