@@ -15,20 +15,10 @@ from zope.schema.vocabulary import SimpleVocabulary
 class IRSSFeed(model.Schema):
     """Dexterity-Schema for RSS Feed"""
 
-    title = schema.TextLine(
-        title=u"Title",
-        required=True,
-    )
-
-    description = schema.TextLine(
-        title=u"Description",
-        required=True,
-    )
-
-    rss_url = schema.URI(
-        title=u"RSS Feed URL",
-        required=True,
-    )
+    # rss_url = schema.URI(
+    #     title=u"RSS Feed URL",
+    #     required=True,
+    # )
 
     update_interval = schema.Int(
         title=u"Update Interval (minutes)",

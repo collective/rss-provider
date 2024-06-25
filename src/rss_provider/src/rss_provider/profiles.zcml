@@ -6,8 +6,8 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="RSS Provider: Install"
-      description="Policy package to install our site"
+      title="RSS Provider"
+      description="Add in plone the capability to generate RSS feeds."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       directory="profiles/default"
       />
@@ -23,7 +23,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="RSS Provider: Uninstall"
+      title="RSS Provider"
       description="Uninstall RSS Provider setup."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       directory="profiles/uninstall"

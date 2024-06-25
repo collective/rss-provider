@@ -37,13 +37,12 @@
   <property name="behaviors"
             purge="false"
   >
+    <element value="volto.blocks" />
+    <element value="plone.dublincore" /> <!-- title and description -->
     <element value="plone.namefromtitle" />
-    <!-- <element value="plone.collection" /> -->
     <element value="plone.allowdiscussion" />
     <element value="plone.shortname" />
     <element value="plone.excludefromnavigation" />
-    <element value="plone.dublincore" />
-    <element value="plone.richtext" />
     <element value="plone.relateditems" />
     <element value="plone.locking" />
   </property>
