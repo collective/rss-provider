@@ -14,7 +14,7 @@
 
 <browser:page
       name="rss_feed_view"
-      for="plone.app.contenttypes.interfaces.IFolder"
+      for="*"
       class=".rssfeed.rssfeedView"
       template="pt/rss_feed_view.pt"
       permission="zope2.View"

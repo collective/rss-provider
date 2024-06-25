@@ -10,7 +10,7 @@
   <metal:content-core define-macro="content-core">
 
     <div id="rss-feed-view">
-      
+      Sample RSS view
     </div>
   </metal:content-core>
 </metal:content-core>
