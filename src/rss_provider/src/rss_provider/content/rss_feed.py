@@ -15,16 +15,20 @@ from zope.schema.vocabulary import SimpleVocabulary
 class IRSSFeed(model.Schema):
     """Dexterity-Schema for RSS Feed"""
 
-    # rss_url = schema.URI(
-    #     title=u"RSS Feed URL",
-    #     required=True,
-    # )
-
-    update_interval = schema.Int(
-        title=u"Update Interval (minutes)",
+    max_title_length = schema.Int(
+        title=u"Maximum Title Length",
+        description=u"Maximum number of characters allowed for titles.",
         required=True,
-        default=60,
+        default=150,
     )
+
+    max_description_length = schema.Int(
+        title=u"Maximum Description Length",
+        description=u"Maximum number of characters allowed for descriptions.",
+        required=True,
+        default=400,
+    )
+    
 
 
 @implementer(IRSSFeed)
