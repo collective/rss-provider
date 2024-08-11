@@ -26,18 +26,38 @@
   </property>
 
   <!-- Schema, class and security -->
-  <!-- <property name="add_permission">rss_provider.AddRSSFeed</property> -->
   <property name="add_permission">cmf.AddPortalContent</property>
   <property name="klass">rss_provider.content.rss_feed.RSSFeed</property>
   <property name="model_file"></property>
   <property name="model_source"></property>
-  <property name="schema">rss_provider.content.rss_feed.IRSSFeed</property>
+  <property name="schema"></property>
+  <property
+    name="model_source">&lt;model xmlns:i18n=&quot;http://xml.zope.org/namespaces/i18n&quot; xmlns:marshal=&quot;http://namespaces.plone.org/supermodel/marshal&quot; xmlns:form=&quot;http://namespaces.plone.org/supermodel/form&quot; xmlns:security=&quot;http://namespaces.plone.org/supermodel/security&quot; xmlns:indexer=&quot;http://namespaces.plone.org/supermodel/indexer&quot; xmlns:lingua=&quot;http://namespaces.plone.org/supermodel/lingua&quot; xmlns:users=&quot;http://namespaces.plone.org/supermodel/users&quot; xmlns=&quot;http://namespaces.plone.org/supermodel/schema&quot;&gt;
+    &lt;schema&gt;
+      &lt;fieldset name=&quot;layout&quot; label=&quot;Layout&quot;&gt;
+        &lt;field name=&quot;blocks&quot; type=&quot;plone.schema.jsonfield.JSONField&quot;&gt;
+          &lt;default&gt;{&#x27;df86d2e3-0c36-4867-a18f-6f7fc6ef5a6d&#x27;: {&#x27;@type&#x27;: &#x27;title&#x27;, &#x27;required&#x27;: True, &#x27;fixed&#x27;: True, &#x27;disableNewBlocks&#x27;: True}, &#x27;5308ea00-c02e-4d5c-800c-be780ea31a98&#x27;: {&#x27;headlineTag&#x27;: &#x27;h2&#x27;, &#x27;@type&#x27;: &#x27;listing&#x27;, &#x27;required&#x27;: True, &#x27;fixed&#x27;: True, &#x27;disableNewBlocks&#x27;: True}}&lt;/default&gt;
+          &lt;description/&gt;
+          &lt;required&gt;False&lt;/required&gt;
+          &lt;title&gt;Blocks&lt;/title&gt;
+        &lt;/field&gt;
+        &lt;field name=&quot;blocks_layout&quot; type=&quot;plone.schema.jsonfield.JSONField&quot;&gt;
+          &lt;default&gt;{&#x27;items&#x27;: [&#x27;df86d2e3-0c36-4867-a18f-6f7fc6ef5a6d&#x27;, &#x27;5308ea00-c02e-4d5c-800c-be780ea31a98&#x27;]}&lt;/default&gt;
+          &lt;description/&gt;
+          &lt;required&gt;False&lt;/required&gt;
+          &lt;title&gt;Blocks Layout&lt;/title&gt;
+        &lt;/field&gt;
+      &lt;/fieldset&gt;
+    &lt;/schema&gt;
+  &lt;/model&gt;</property>
+ <property name="model_file"></property>
+ <property name="schema_policy">dexterity</property>
 
    <!-- Enabled behaviors -->
   <property name="behaviors"
             purge="false"
   >
-    <element value="volto.blocks" />
+    <element value="volto.blocks.editable.layout" />
     <element value="plone.dublincore" /> <!-- title and description -->
     <element value="plone.namefromtitle" />
     <element value="plone.allowdiscussion" />
