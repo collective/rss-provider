@@ -8,18 +8,14 @@ This is the backend addon for [volto-rss-provider](https://github.com/collective
 
 - The backend addon adds a `rss_feed` content type with `blocks` behavior enabled and two additional `max_title_length` and `max_description_length` fields in its schema.
 
-### Initial content
-
-This package contains a simple volto configuration.
-
-Installation
-------------
+## Installation
 
 Install rss_provider with `pip`:
 
 ```shell
 pip install rss_provider
 ```
+
 And to create the Plone site:
 
 ```shell

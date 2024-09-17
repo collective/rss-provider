@@ -38,7 +38,7 @@
             purge="false"
   >
     <element value="volto.blocks" />
-    <element value="plone.dublincore" /> <!-- title and description -->
+    <element value="plone.dublincore" />
     <element value="plone.namefromtitle" />
     <element value="plone.allowdiscussion" />
     <element value="plone.shortname" />
