@@ -13,9 +13,10 @@ long_description = f"""
 
 setup(
     name="rss_provider",
-    version="1.0.0a2.dev0",
-    description="RSS Provider configuration package.",
+    version="1.0.0a2",
+    description="Plone backend addon for volto-rss-provider",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
@@ -31,8 +32,8 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords="Python Plone CMS",
-    author="Plone Foundation",
-    author_email="collective@plone.org",
+    author="Ziming Yuan",
+    author_email="zimingyuan2017@gmail.com",
     url="https://github.com/collective/rss-provider",
     project_urls={
         "PyPI": "https://pypi.python.org/pypi/rss_provider",
