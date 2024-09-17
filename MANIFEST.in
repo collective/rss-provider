@@ -4,3 +4,5 @@ include *.rst
 include *.md
 include *.cfg
 global-exclude *.pyc
+recursive-include tests *.py
+include .dockerignore

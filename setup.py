@@ -17,6 +17,7 @@ setup(
     description="RSS Provider configuration package.",
     long_description=long_description,
     classifiers=[
+        "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: Addon",
