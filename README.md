@@ -1,6 +1,8 @@
 # rss_provider
 
-This is the backend addon for [volto-rss-provider](https://github.com/collective/volto-rss-provider).
+This is the Plone backend addon for [volto-rss-provider](https://github.com/collective/volto-rss-provider).
+
+[![PyPI version](https://badge.fury.io/py/rss-provider.svg)](https://pypi.org/project/rss-provider/)
 
 ## Features
 
@@ -14,12 +16,6 @@ Install rss_provider with `pip`:
 
 ```shell
 pip install rss_provider
-```
-
-And to create the Plone site:
-
-```shell
-make create_site
 ```
 
 ## Contribute
