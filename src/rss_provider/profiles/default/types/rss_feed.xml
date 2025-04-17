@@ -48,7 +48,7 @@
   </property>
 
   <!-- View information -->
-  <property name="add_view_expr">string:${folder_url}/++add++RSS Feed</property>
+  <property name="add_view_expr">string:${folder_url}/++add++rss_feed</property>
   <property name="default_view">rss_feed_view</property>
   <property name="view_methods">
   <element value="rss_feed_view"/>
