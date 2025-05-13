@@ -12,7 +12,7 @@
       type="plone"
       />
 
-<browser:page
+  <browser:page
       name="rss_feed_view"
       for="*"
       class=".rssfeed.rssfeedView"

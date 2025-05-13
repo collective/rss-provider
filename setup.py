@@ -1,4 +1,5 @@
 """Installer for the rss_provider package."""
+
 from pathlib import Path
 from setuptools import find_packages
 from setuptools import setup
@@ -13,7 +14,7 @@ long_description = f"""
 
 setup(
     name="rss_provider",
-    version="1.0.0a3.dev0",
+    version="1.0.0",
     description="Plone backend addon for volto-rss-provider",
     long_description=long_description,
     long_description_content_type="text/markdown",

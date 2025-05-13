@@ -1,13 +1,13 @@
 from plone import api
+from Products.CMFPlone.interfaces import INonInstallable
 from rss_provider import logger
 from rss_provider.setuphandlers import content
 from rss_provider.setuphandlers import users
-from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
 
 
 @implementer(INonInstallable)
-class HiddenProfiles(object):
+class HiddenProfiles:
     def getNonInstallableProfiles(self):
         """Hide uninstall profile from site-creation and quickinstaller."""
         return [

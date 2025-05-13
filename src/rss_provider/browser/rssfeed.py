@@ -1,6 +1,5 @@
-from Products.Five.browser import BrowserView
-
 from plone.restapi.deserializer import json_body
+from Products.Five.browser import BrowserView
 
 import json
 
