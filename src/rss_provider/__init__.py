@@ -2,6 +2,8 @@
 
 from zope.i18nmessageid import MessageFactory
 
+
+__version__ = "1.0.0"
 import logging
 
 
