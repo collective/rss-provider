@@ -13,15 +13,6 @@
       />
 
   <genericsetup:registerProfile
-      name="initial"
-      title="RSS Provider: Initial content"
-      description="Initial content for our website."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      directory="profiles/initial"
-      pre_handler=".setuphandlers.populate_portal"
-      />
-
-  <genericsetup:registerProfile
       name="uninstall"
       title="RSS Provider"
       description="Uninstall RSS Provider setup."
