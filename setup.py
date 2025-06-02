@@ -14,7 +14,7 @@ long_description = f"""
 
 setup(
     name="rss_provider",
-    version="1.0.0",
+    version="1.1.0",
     description="Plone backend addon for volto-rss-provider",
     long_description=long_description,
     long_description_content_type="text/markdown",
