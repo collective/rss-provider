@@ -2,7 +2,7 @@
 
 ## 1.1.0 (2025-07-03)
 
-- Nothing changed yet.
+- refactor: remove unnecessary files from generator-templates ([#2b1217a](https://github.com/collective/rss-provider/commit/2b1217a0170a086c5f58037ac9e636281bfaca56))
 
 ## 1.0.0a2 (2024-09-17)
 
